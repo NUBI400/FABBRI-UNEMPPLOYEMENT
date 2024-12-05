@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=3 uid="uid://dtn62lxknitxy"]
+
+[ext_resource type="Texture2D" uid="uid://2x47be6mekys" path="res://Assests/sadsad.jpg" id="1_lidcq"]
+
+[node name="Nicolas" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 640.0
+offset_bottom = 639.0
+scale = Vector2(1, 0.6)
+texture = ExtResource("1_lidcq")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+text = "konami"

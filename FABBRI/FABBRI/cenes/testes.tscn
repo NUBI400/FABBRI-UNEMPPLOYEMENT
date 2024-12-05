@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://dumdwxulclxq4"]
+
+[ext_resource type="PackedScene" uid="uid://bxli3h2by2x20" path="res://cenes/fabbri.tscn" id="1_khok7"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_oukw5"]
+size = Vector2(382, 20)
+
+[node name="Node2D" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(325, 285)
+shape = SubResource("RectangleShape2D_oukw5")
+
+[node name="Fabbri" parent="." instance=ExtResource("1_khok7")]
+position = Vector2(328, 180)
